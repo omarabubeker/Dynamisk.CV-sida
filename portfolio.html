@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Abubeker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32c88d8314.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:wght@400;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+
+    <div class="container">
+        <header>
+            <nav class="navigation">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="check-btn"><i class="fa-solid fa-bars"></i></label>
+                <ul class="menu-ul">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html" class="location">Portfolio</a></li>
+                    <li><a href="cv.html" >CV</a></li>
+                    <li><a href="about.html" >About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><input type="checkbox" class="switch-ch" id="dark-switch">
+                        <label for="dark-switch" id="d-switch">darkmode</label></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        
+        <main class="main">
+            <div class="first-text">
+                <h1 class="headline">Portfolio</h1>
+                <section class="gridwrap">
+                    
+
+                    <div class="res-grid res">
+                        <h3>Responsive grid layouts</h3>
+                        <br>
+                        <a href="#modalone" class="btn-size">
+                            read more
+                        </a>
+                        <div class="modal" id="modalone">
+                            <div class="modal-inner">
+                                <a href="#" class="closepop mc">&times;</a>
+                                <h2 class="pophead mc">Responsive grid layout</h2>
+                                <p class="mc">These projects we did working with grid. 
+                                    The challenge here was to make every box find its place in the template. 
+                                    In the image you can see two different layouts done with one project. 
+                                    The first one for desktop and the second one for tablet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-grid nova">
+                        <a href="#">
+                            <img src="images/portfolio/Skärmbild(12).png" alt="grid one" class="port-img">
+                            <img src="images/portfolio/Skärmbild(13).png" alt="grid two" class="port-img">
+                        </a>
+                    </div>
+                   
+
+
+                   
+                    <div class="res-flex res">
+                        <h3>Responsive flexbox layouts</h3>
+                        <a href="#modaltwo" class="openmodal btn-size">read more
+                        </a>
+                        <div class="modal" id="modaltwo">
+                            <div class="modal-inner">
+                                <a href="#" class="closepop mc">&times;</a>
+                                <h2 class="pophead mc">Responsive flexbox layouts</h2>
+                                <p class="mc">We worked alot with flexbox. Our goal was to make everything responsive so it has a nice layout on every device.
+                                    Flexbox is an excellent tool and very easy to understand. On the image you can see how the same element has a different layout on each device.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-flex nova">
+                        <a href="#">
+                            <img src="images/portfolio/Skärmbild(15).png" alt="flex one" class="port-img">
+                            <img src="images/portfolio/Skärmbild(16).png" alt="flex two" class="port-img">
+                        </a>
+                    </div>
+                    
+
+
+
+                    <div class="res-menu res">
+                        <h3>Responsive menus</h3>
+                        <a href="#modalthree" class="btn-size">
+                        read more
+                        </a>
+                        <div class="modal" id="modalthree">
+                            <div class="modal-inner">
+                                <a href="#" class="closepop mc">&times;</a>
+                                <h2 class="pophead mc">Responsive menus</h2>
+                                <p class="mc">One of our first school projects was to make a responsive menu using media queries.
+                                    We made this menu, building it for mobile first and the adapting it to both desktop and tablet.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-menu nova">
+                        <a href="#">
+                            <img src="images/portfolio/Skärmbild(17).png" alt="menu one" class="port-img">
+                            <img src="images/portfolio/Skärmbild(18).png" alt="menu two" class="port-img">
+                        </a>
+                    </div>
+
+
+
+                    
+                    <div class="rockboxone res">
+                        
+                            <h3 class="res">Rock paper scissors</h3>
+                        
+                            <button class="button mdl-open">Play</button>
+        
+                        </div>
+        
+                        <div class="rockboxtwo nova">
+        
+                            <img src="images/pexels-darina-belonogova-8789755.jpg" alt="image of rock, paper and scissors" class="port-img">
+                    </div>
+
+
+
+                    <div class="numboxone res">
+
+
+                        <h3 class="res">Number guessing game</h3>
+                    
+                        <button class="button mdlNum-open">Play</button>
+         
+        
+                    </div>
+        
+                    <div class="numboxtwo nova">
+        
+                        <img src="images/pexels-black-ice.jpg" alt="image of numbers" class="port-img">
+                    </div>
+                    
+
+
+                </section>
+            </div>
+
+
+
+
+            <div class="jsmodal gameModal">
+                <div class="jsmodal-inner">
+                    <div class="mdl-close gameMdl-close mc">&times;</div>
+                    <p class="mc">We made a game of rock paper scissors using no CSS, only HTML and JavaScript. We wanted to make the time
+                        we had in this workshop useful and focused on making the functions work.
+                        <br>
+                        <a href="https://github.com/omarabubeker/rockPaperScissors" class="mc">See the code here on Github</a>
+                    </p>
+                    <br>
+                    <a href="rock.html" class="btn-size">play here!</a>
+                </div>
+            </div>
+
+
+
+
+        <div class="jsNumModal gameModal">
+            <div class="jsmodal-inner">
+                <div class="mdlNum-close gameMdl-close mc">&times;</div>
+                <p class="mc">For our first JavaScript workshop we created a number guessing game. The computer will randomly generate a
+                    "hidden" number and the goal is for the player to guess the number in as few tries as possible.
+                    <br>
+                    <a href="https://github.com/omarabubeker/NumbersGame" class="mc">See the code here on Github</a>
+                </p>
+                <br>
+                <a href="numbers.html" class="btn-size">play here!</a>
+            </div>
+        </div>
+
+
+        </main>
+        <footer>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <p>Check out my social media</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="portScript.js"></script>
+</body>
+</html>

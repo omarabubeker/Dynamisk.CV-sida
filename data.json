@@ -1,0 +1,53 @@
+{
+    "WorkLifeExperience": [
+
+        {  
+            "title": ["Barnskötare", " Brandbergsskolan", " 2010 - 2011"]
+        },
+
+        {
+            "title": ["handledare"," Villa viktoria"," 2013 - 2016"]
+        
+        },
+
+        {
+            "title": ["resurspedagog"," Tallbackaskolan"," 2016 - 2022"]
+        
+        }
+
+    ],
+
+    "Education": [
+
+        {
+            "school": ["Fredrikabremergymnasiet"," samhällslinjen", " 2003 - 2006"]
+
+        },
+
+        {
+            "school": ["Skarpnäcks folkhögskola", " Allmänna lingen", " 2011 - 2013"]
+        
+        },
+
+        {
+            "school": ["Chas Academy", "UX/UI designer and front-end developer" , " 2022 - Currently"]
+            
+        }
+
+    ],
+
+    "Other": [
+
+        {
+            "otherthings": ["militaryService", " Lss Uppsala", " 2007"]
+        },
+
+        {
+            "otherthings": " Fluent in Swedish and English"
+
+        }
+
+    ]
+
+
+}
