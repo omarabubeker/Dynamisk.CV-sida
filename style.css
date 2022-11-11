@@ -555,6 +555,12 @@ footer p {
     cursor: pointer;
 }
 
+.btn-size:hover {
+    color: rgb(65, 65, 65);
+    background-image: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #062536a0;
+}
 
 @media screen and (min-width: 550px) {
     
